@@ -72,10 +72,10 @@
     <nav class="navbar navbar-expand-lg navbar-desa py-2">
         <div class="container">
             <a class="navbar-brand text-white d-flex align-items-center" href="{{ route('berita.index') }}">
-                <span class="fs-4 me-2">🏛️</span>
+                <span class="fs-4 me-2">🏡</span>
                 <span>
-                    PEMERINTAH DAERAH SOEHAT
-                    <small>KECAMATAN LOWOKWARU KABUPATEN MALANG</small>
+                PEMERINTAH DESA JALATRANG
+                <small>KECAMATAN CIPAKU KABUPATEN CIAMIS</small>
                 </span>
             </a>
             <div class="ms-auto">
@@ -93,11 +93,11 @@
     </div>
 
     <footer class="footer-desa py-4 mt-5">
-        <div class="container">
-            <strong class="text-white">Pemerintah Daerah Soehat</strong><br>
-            Jalan Raya Soekarno Hatta No. 1, Kecamatan Lowokwaru, Kabupaten Malang<br>
-            <a href="{{ route('berita.index') }}">Berita</a>
-        </div>
+    <div class="container">
+        <strong class="text-white">Pemerintah Desa Jalatrang</strong><br>
+        Kecamatan Cipaku, Kabupaten Ciamis<br>
+        <a href="{{ route('berita.index') }}">Berita</a>
+    </div>
     </footer>
 </body>
 </html>
